@@ -11,11 +11,3 @@ scalacOptions ++= Seq(
     "-language:implicitConversions",
     "-Ypartial-unification"
   )
-  
-libraryDependencies ++= Seq(
-    "org.scalatest" %% "scalatest" % "3.0.4"
-    , "org.scalacheck" %% "scalacheck" % "1.13.5"
-    , "org.typelevel" %% "cats-core" % "1.0.0"
-    , "org.typelevel" %% "kittens" % "1.0.0-RC2"
-    , "io.chymyst" %% "curryhoward" % "0.3.4"
-  )
